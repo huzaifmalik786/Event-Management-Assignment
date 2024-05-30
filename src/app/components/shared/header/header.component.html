@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+    <span>Event Management</span>
+    <span class="spacer"></span>
+    <button mat-button (click)="logout()" *ngIf="isLoggedIn()">
+        Logout
+        <mat-icon>logout</mat-icon>
+    </button>
+</mat-toolbar>

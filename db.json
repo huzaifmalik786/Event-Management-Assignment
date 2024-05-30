@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1717066236119,
+      "username": "huzaif",
+      "password": "Huzaif@123"
+    }
+  ],
+  "events": [
+    {
+      "id": "1717060581595",
+      "title": "test 1",
+      "description": "test event 1",
+      "date": "1111-11-11",
+      "location": "new delhi",
+      "userId": 1717060470880
+    }
+  ]
+}

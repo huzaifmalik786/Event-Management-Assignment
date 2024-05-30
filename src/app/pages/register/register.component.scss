@@ -1,0 +1,28 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+    mat-card {
+        margin: 0 16px;
+        max-width: 600px;
+        text-align: center;
+        width: 100%;
+
+        mat-card-title {
+            margin: 16px auto;
+        }
+
+        mat-form-field {
+            display: block;
+        }
+    }
+
+    .auth-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
